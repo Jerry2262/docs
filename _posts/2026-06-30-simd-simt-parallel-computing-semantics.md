@@ -1,4 +1,10 @@
-# 从 SIMD 到 SIMT：大模型、GPU、SVE 与 CUDA 背后的并行计算语义
+---
+layout: post
+title: "从 SIMD 到 SIMT：大模型、GPU、SVE 与 CUDA 背后的并行计算语义"
+date: 2026-06-30
+description: "辨析 SIMD、SIMT、SVE、CUDA 与大模型背后的并行计算语义。"
+category: 体系结构
+---
 
 讨论现代计算体系时，SIMD、SIMT、MIMD、SVE、CUDA、GPU 这些词经常混在一起出现。它们确实有关联，但并不是同一层面的概念。
 

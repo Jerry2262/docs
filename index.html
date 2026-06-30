@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1 class="hero-title">{{ site.title }}</h1>
+  <p class="hero-sub">{{ site.description }}</p>
+</section>
+
+<section class="posts">
+  {% assign sorted = site.posts | sort: "date" | reverse %}
+  {% for post in sorted %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    <div class="card-meta">
+      <span class="card-date">{{ post.date | date: "%Y.%m" }}</span>
+      {% if post.category %}<span class="card-tag">{{ post.category }}</span>{% endif %}
+    </div>
+    <h2 class="card-title">{{ post.title }}</h2>
+    <p class="card-desc">{{ post.description }}</p>
+    <span class="card-more">阅读 →</span>
+  </a>
+  {% endfor %}
+</section>

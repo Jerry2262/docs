@@ -1,0 +1,24 @@
+title: 笔记
+description: 关于计算体系、投资逻辑与日常思考的记录
+author: shixianjie
+url: "https://jerry2262.github.io"
+baseurl: "/docs"
+
+theme: null
+plugins: []
+
+permalink: /posts/:title/
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Shanghai
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
