@@ -15,6 +15,7 @@ timezone: Asia/Shanghai
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  math_engine: null
 
 defaults:
   - scope:
