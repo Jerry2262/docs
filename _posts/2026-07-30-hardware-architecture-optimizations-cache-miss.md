@@ -1,5 +1,5 @@
 ---
-title: "面向多线程共享导致 Cache Miss 的硬件支持与架构优化"
+title: "多线程共享与 Cache Miss（六）：硬件与架构优化"
 date: 2026-07-30
 description: "缓存一致性协议、硬件预取与架构级 cache miss 优化演进的调研。"
 category: 体系结构
@@ -552,3 +552,4 @@ category: 体系结构
 ---
 
 > **Key Takeaway**：多线程 cache miss 的硬件优化正在经历从"同一协议适配所有场景"到"场景感知、粒度自适应、安全与性能共设计"的范式转变。最令人兴奋的前沿包括（1）字节粒度的 false sharing 自动修复走向硅验证、（2）CXL 驱动的异构一致性协议标准化、以及（3）安全硬件设计理念向 coherence 子系统的渗透。
+

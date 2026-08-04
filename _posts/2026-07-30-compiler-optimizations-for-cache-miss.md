@@ -1,5 +1,5 @@
 ---
-title: "面向多线程共享导致 Cache Miss 的编译器优化技术"
+title: "多线程共享与 Cache Miss（五）：编译器优化"
 date: 2026-07-30
 description: "编译器视角的 cache miss 优化：数据布局变换、循环访存优化与 PGO 反馈闭环。"
 category: 体系结构
@@ -343,3 +343,4 @@ perf c2c record -> perf c2c report -> 人工识别热点 -> 手动修改代码/�
 ---
 
 **编制日期**：2026 年 7 月
+

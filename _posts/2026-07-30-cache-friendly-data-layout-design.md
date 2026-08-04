@@ -1,5 +1,5 @@
 ---
-title: "面向多线程共享场景的 Cache 友好数据布局与结构设计"
+title: "多线程共享与 Cache Miss（三）：缓存友好数据布局"
 date: 2026-07-30
 description: "以 cache line 与缓存层次为一阶约束的数据结构设计：哈希表、字段重排与布局变换。"
 category: 体系结构
@@ -541,3 +541,4 @@ Ring buffer（又称 circular buffer）是多生产者-多消费者（MPMC）场
 - Vyukov, D. "Lock-Free Bounded MPMC Queue." (工业级实现, 2010).
 - Lee et al. "MCRingBuffer." PPoPP 2013.
 - Aldinucci et al. "FastFlow SPSC Queue." 2012.
+

@@ -1,5 +1,5 @@
 ---
-title: "多线程共享导致 Cache Miss 的检测与诊断工具"
+title: "多线程共享与 Cache Miss（二）：检测与诊断工具"
 date: 2026-07-30
 description: "基于硬件性能计数器与运行时采样的 cache miss 检测与诊断工具调研。"
 category: 体系结构
@@ -405,3 +405,4 @@ pahole -C struct_name <binary>
 ---
 
 *调研时间：2026 年 7 月。由于硬件 PMU 和 perf 生态快速演进，部分信息（特别是 RISC-V 支持和 perf c2c 新特性）可能已有更新，建议以 LKML 最新归档为准。*
+

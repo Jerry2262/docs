@@ -1,5 +1,5 @@
 ---
-title: "同步原语的缓存友好性优化"
+title: "多线程共享与 Cache Miss（四）：同步原语优化"
 date: 2026-07-30
 description: "锁原语、RCU、Lock-Free 与硬件事务内存的缓存行为分析与优化调研。"
 category: 体系结构
@@ -706,3 +706,4 @@ SAP HANA 的列存储 Delta Storage Index 是一种树索引，首次直接应�
 ---
 
 *本笔记编译于 2026 年 7 月，基于所引文献的研究成果。*
+
